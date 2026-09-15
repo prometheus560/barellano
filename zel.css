@@ -1,7 +1,3 @@
-/* =====================================
-   GENERAL
-===================================== */
-
 * {
     margin: 0;
     padding: 0;
@@ -10,18 +6,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #2d0a4e;
+    color:darkviolet;
 
     background:
-        linear-gradient(135deg, #f8f0ff, #ead7ff, #fcecff);
+        linear-gradient(135deg,white,white,white);
 
     min-height: 100vh;
 }
-
-
-/* =====================================
-   FRONT COVER
-===================================== */
 
 .cover-page {
     min-height: 100vh;
@@ -31,10 +22,10 @@ body {
     background:
         linear-gradient(
             135deg,
-            #240046,
-            #5a189a,
-            #7b2cbf,
-            #9d4edd
+            darkviolet,
+            darkviolet,
+            white,
+            darkviolet
         );
 }
 
@@ -44,11 +35,6 @@ body {
     padding: 30px 5%;
 }
 
-
-/* =====================================
-   COVER HEADER
-===================================== */
-
 .cover-header {
     display: flex;
     justify-content: space-between;
@@ -56,7 +42,7 @@ body {
 
     padding-bottom: 20px;
 
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid grey;
 }
 
 
@@ -68,19 +54,14 @@ body {
 
 
 .cover-logo span {
-    color: #ffd6ff;
+    color: plum;
 }
 
 
 .cover-issue {
     font-size: 12px;
-    color: #e0aaff;
+    color: plum;
 }
-
-
-/* =====================================
-   COVER CONTENT
-===================================== */
 
 .cover-main {
     display: grid;
@@ -94,13 +75,8 @@ body {
     min-height: 75vh;
 }
 
-
-/* =====================================
-   NAME
-===================================== */
-
 .cover-kicker {
-    color: #f3c4fb;
+    color: plum;
 
     font-size: 12px;
 
@@ -118,14 +94,14 @@ body {
     line-height: 0.9;
 
     text-shadow:
-        4px 4px 15px rgba(0, 0, 0, 0.2);
+        4px 4px 15px black;
 }
 
 
 .cover-heading h1 span {
     display: block;
 
-    color: #ffd6ff;
+    color: pink;
 
     margin-left: 40px;
 }
@@ -138,13 +114,9 @@ body {
 
     letter-spacing: 3px;
 
-    color: #e0aaff;
+    color: plum;
 }
 
-
-/* =====================================
-   PHOTO
-===================================== */
 
 .cover-photo {
     position: relative;
@@ -166,10 +138,10 @@ body {
 
     border-radius: 20px;
 
-    border: 5px solid #f3c4fb;
+    border: 5px solid plum;
 
     box-shadow:
-        0 15px 40px rgba(0, 0, 0, 0.3);
+        0 15px 40px black;
 }
 
 
@@ -187,11 +159,11 @@ body {
     background:
         linear-gradient(
             135deg,
-            #ff9de2,
-            #e0aaff
+            plum,
+            purple
         );
 
-    color: #3c096c;
+    color: indigo;
 
     border-radius: 50%;
 
@@ -206,7 +178,7 @@ body {
     z-index: 2;
 
     box-shadow:
-        0 5px 20px rgba(0, 0, 0, 0.2);
+        0 5px 20px black
 }
 
 
@@ -216,11 +188,11 @@ body {
     background:
         linear-gradient(
             90deg,
-            #ff9de2,
-            #e0aaff
+            plum,
+            pink
         );
 
-    color: #3c096c;
+    color: indigo;
 
     padding: 10px 15px;
 
@@ -233,11 +205,6 @@ body {
     letter-spacing: 1px;
 }
 
-
-/* =====================================
-   OPEN BUTTON
-===================================== */
-
 .open-button {
     display: inline-block;
 
@@ -248,8 +215,8 @@ body {
     background:
         linear-gradient(
             135deg,
-            #9d4edd,
-            #c77dff
+            purple,
+            violet
         );
 
     border: 2px solid #f3c4fb;
@@ -261,18 +228,17 @@ body {
     font-size: 12px;
 
     font-weight: bold;
-
     letter-spacing: 1px;
 
     box-shadow:
-        0 8px 20px rgba(0, 0, 0, 0.2);
+        0 8px 20px black;
 
     transition: 0.3s;
 }
 
 
 .open-button span {
-    color: #ffd6ff;
+    color: plum;
 
     margin-left: 8px;
 
@@ -286,22 +252,17 @@ body {
     background:
         linear-gradient(
             135deg,
-            #ff9de2,
-            #c77dff
+            plum,
+            violet
         );
 
-    color: #3c096c;
+    color: indigo;
 }
 
 
 .open-button:hover span {
-    color: #3c096c;
+    color: indigo;
 }
-
-
-/* =====================================
-   COVER FOOTER
-===================================== */
 
 .cover-footer {
     display: flex;
@@ -309,19 +270,14 @@ body {
     justify-content: space-between;
 
     border-top:
-        1px solid rgba(255, 255, 255, 0.3);
+        1px solid gray;
 
     padding-top: 15px;
 
-    color: #f3c4fb;
+    color: plum;
 
     font-size: 10px;
 }
-
-
-/* =====================================
-   HOME PAGE HEADER
-===================================== */
 
 .site-header {
     display: flex;
@@ -335,20 +291,20 @@ body {
     background:
         linear-gradient(
             135deg,
-            #3c096c,
-            #7b2cbf,
-            #9d4edd
+            indigo,
+            purple,
+            violet
         );
 
     color: white;
 
     border-bottom:
-        5px solid #ff9de2;
+        5px solid plum;
 }
 
 
 .header-left p {
-    color: #f3c4fb;
+    color: pink;
 
     font-size: 11px;
 
@@ -366,22 +322,17 @@ body {
 
 
 .header-left span {
-    color: #e0aaff;
+    color: plum;
 
     display: block;
 
     margin-top: 8px;
 }
 
-
-/* =====================================
-   BACK BUTTON
-===================================== */
-
 .back-button {
-    color: #3c096c;
+    color: indigo;
 
-    background: #ffd6ff;
+    background: white;
 
     text-decoration: none;
 
@@ -398,17 +349,12 @@ body {
 
 
 .back-button:hover {
-    background: #ff9de2;
+    background: plum;
 
-    color: #240046;
+    color: indigo;
 
     transform: scale(1.05);
 }
-
-
-/* =====================================
-   ABOUT
-===================================== */
 
 .about {
     max-width: 1100px;
@@ -420,7 +366,7 @@ body {
 
 
 .section-title {
-    color: #7b2cbf;
+    color: purple;
 
     font-size: 12px;
 
@@ -439,24 +385,19 @@ body {
 
     margin-bottom: 25px;
 
-    color: #5a189a;
+    color: indigo;
 }
 
 
 .about-text {
     max-width: 650px;
 
-    color: #5a3b72;
+    color: purple;
 
     font-size: 17px;
 
     line-height: 1.7;
 }
-
-
-/* =====================================
-   CARDS
-===================================== */
 
 .cards {
     max-width: 1100px;
@@ -477,11 +418,11 @@ body {
     background:
         linear-gradient(
             135deg,
-            #ffffff,
-            #f9edff
+            white,
+            white
         );
 
-    border: 2px solid #e0aaff;
+    border: 2px solid violet;
 
     padding: 30px;
 
@@ -490,7 +431,7 @@ body {
     border-radius: 20px;
 
     box-shadow:
-        0 10px 30px rgba(90, 24, 154, 0.12);
+        0 10px 30px black;
 
     transition: 0.3s;
 }
@@ -501,14 +442,14 @@ body {
         translateY(-8px);
 
     box-shadow:
-        0 18px 40px rgba(90, 24, 154, 0.25);
+        0 18px 40px darkviolet;
 
-    border-color: #9d4edd;
+    border-color:purple;
 }
 
 
 .card > span {
-    color: #9d4edd;
+    color: purple;
 
     font-size: 12px;
 
@@ -523,22 +464,17 @@ body {
 
     margin: 20px 0;
 
-    color: #5a189a;
+    color: darkviolet;
 }
 
 
 .card p {
-    color: #604b70;
+    color: violet;
 
     line-height: 1.7;
 
     margin-bottom: 12px;
 }
-
-
-/* =====================================
-   HOBBIES
-===================================== */
 
 .card ul {
     list-style: none;
@@ -549,9 +485,9 @@ body {
     padding: 12px 0;
 
     border-bottom:
-        1px solid #e0aaff;
+        1px solid plum;
 
-    color: #604b70;
+    color: indigo;
 }
 
 
@@ -559,11 +495,6 @@ body {
     content: "💜 ";
 
 }
-
-
-/* =====================================
-   GALLERY
-===================================== */
 
 .gallery-card {
     grid-column: span 2;
@@ -586,16 +517,11 @@ body {
 
     border-radius: 15px;
 
-    border: 4px solid #c77dff;
+    border: 4px solid purple;
 
     box-shadow:
-        0 10px 30px rgba(90, 24, 154, 0.2);
+        0 10px 30px darkviolet;
 }
-
-
-/* =====================================
-   CONTACT
-===================================== */
 
 .contact-card {
     grid-column: span 2;
@@ -607,20 +533,16 @@ body {
 }
 
 
-/* =====================================
-   FOOTER
-===================================== */
-
 body:not(.cover-page) footer {
     background:
         linear-gradient(
             135deg,
-            #240046,
-            #5a189a,
-            #7b2cbf
+            darkviolet,
+            darkviolet,
+             darkviolet
         );
 
-    color: #f3c4fb;
+    color:plum;
 
     padding: 25px 8%;
 
@@ -630,11 +552,6 @@ body:not(.cover-page) footer {
 
     font-size: 12px;
 }
-
-
-/* =====================================
-   TABLET
-===================================== */
 
 @media screen and (max-width: 900px) {
 
@@ -659,11 +576,6 @@ body:not(.cover-page) footer {
     }
 
 }
-
-
-/* =====================================
-   PHONE
-===================================== */
 
 @media screen and (max-width: 600px) {
 
@@ -700,9 +612,6 @@ body:not(.cover-page) footer {
 
         margin-bottom: 8px;
     }
-
-
-    /* HOME */
 
     .site-header {
         display: block;
